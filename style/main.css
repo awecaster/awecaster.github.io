@@ -4,9 +4,10 @@ html{
 }
 
 body {
-  background-image: url("../images/bboy.jpg");
+  background-color: rgba(121, 160, 169, 0.33);;
   background-size: 100rem;
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  //background-image: url("../images/bboy.jpg");//
   }
 
 .title{
@@ -67,6 +68,33 @@ em {
 
 .words{
   text-align: left;
-  color:rgba(27, 50, 64, 0.68);;
+  margin: 20px 0 20px 0;
+  color:rgba(27, 50, 64, 0.68);
   font-family: 'Raleway', sans-serif;
 }
+
+img{
+    width: 80%;
+    display: block;
+    margin: 0 auto 0 auto;
+    margin-bottom: 20px;
+    border-radius: 140px 140px;
+  }
+
+.footer{
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: rgba(11, 69, 179, 0.5);
+  border-top:double;
+  border-bottom:double;
+  text-align: center;
+  font-family:'Raleway', sans-serif;
+  font-size: small;
+  background-color: rgba(175, 72, 72, 0.13);
+  margin: 0 0 0 0;
+  }
+
+  #footerwords{
+    color:rgba(56, 21, 239, 0.64);
+  }
