@@ -1,6 +1,6 @@
 html{
     height: 100%;
-    width: 82%;
+    width: 77%;
 }
 
 body {
@@ -12,18 +12,19 @@ body {
 .title{
   text-align: center;
   font-family: 'Homemade Apple', cursive;
+  background-color: rgba(175, 72, 72, 0.13);
 }
-
-
 
 .header{
   font-family: 'Homemade Apple', cursive;
+  margin-bottom:15px;
 }
 
 ul{
   text-align:right;
-  border-bottom:double;
-  margin-bottom:15px;
+  //border-bottom:double;//
+  margin: 15px 0 0 0;
+
 }
 
 nav li{
@@ -32,17 +33,19 @@ nav li{
   padding: 15px;
 }
 
-
-em {
-  color: rgba(11, 69, 179, 0.5);
-}
-
 a{
   text-decoration: none;
   color: rgba(11, 69, 179, 0.5);
 }
+a:hover{
+  color:rgba(152, 46, 46, 0.82);
+}
 
-
+h1{
+  border-top:double;
+  margin: 0 0 0 0;
+  padding-top:10px;
+}
 
 h4{
   border-bottom:double;
@@ -57,9 +60,10 @@ h5{
 }
 
 
-h1{
-  margin: 15px 0 0 0;
+em {
+  color: rgba(11, 69, 179, 0.5);
 }
+
 
 .words{
   text-align: left;
