@@ -66,7 +66,7 @@ em {
 
 .words{
   text-align: left;
-  margin: 20px 0 20px 0;
+  margin: 20px 20px 20px 20px;
   color:rgba(27, 50, 64, 0.68);
   font-family: 'Raleway', sans-serif;
 }
@@ -90,7 +90,6 @@ img{
   right: 0;
   bottom: 0;
   left: 0;
-  color: rgba(11, 69, 179, 0.5);
   border-top:double;
   border-bottom:double;
   text-align: center;
@@ -100,6 +99,6 @@ img{
   margin: 0 0 0 0;
   }
 
-  #footerwords{
+  #nite{
     color:rgba(56, 21, 239, 0.64);
   }
