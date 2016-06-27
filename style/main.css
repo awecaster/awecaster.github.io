@@ -23,7 +23,6 @@ body {
 
 ul{
   text-align:right;
-  //border-bottom:double;//
   margin: 15px 0 0 0;
 
 }
@@ -60,7 +59,6 @@ h5{
   color:rgba(152, 46, 46, 0.82);
 }
 
-
 em {
   color: rgba(11, 69, 179, 0.5);
 }
@@ -73,12 +71,19 @@ em {
   font-family: 'Raleway', sans-serif;
 }
 
+#about{
+  font-size: 120%;
+}
+
 img{
     width: 80%;
     display: block;
     margin: 0 auto 0 auto;
     margin-bottom: 20px;
     border-radius: 140px 140px;
+    border: 5px outset rgba(187, 189, 195, 0.1);
+
+
   }
 
 .footer{
