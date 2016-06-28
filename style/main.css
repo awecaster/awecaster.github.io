@@ -21,15 +21,20 @@ body {
   margin-bottom:15px;
 }
 
+#leftsymbol{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 120%;
+}
+
 ul{
   text-align:right;
   margin: 15px 0 0 0;
-
 }
 
 nav li{
   display: inline;
-  margin-right: 25px;
   padding: 15px;
 }
 
@@ -80,7 +85,7 @@ img{
     display: block;
     margin: 0 auto 0 auto;
     margin-bottom: 20px;
-    border-radius: 140px 140px;
+    border-radius: 100px 100px;
     border: 5px outset rgba(187, 189, 195, 0.1);
 
 
