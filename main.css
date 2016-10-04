@@ -1,0 +1,147 @@
+html{
+
+}
+
+body{
+  margin:0;
+}
+
+ul{
+  text-align:right;
+  margin: 0;
+  padding-left: 0px;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+nav li{
+
+  display: inline;
+  padding: 15px;}
+
+a{
+  text-decoration: none;
+  color: #57806f;
+  font-size:3.1em;
+}
+
+nav a:hover {
+  background-image: linear-gradient(to bottom,rgba(230, 141, 230, 0.59) 0,rgba(236, 194, 255, 0.07) 50%,rgb(236, 194, 236) 100%);
+    background-position: 1px 92%;
+    background-repeat: repeat-x;
+    background-size: 2px 9%;
+    text-decoration: none;
+  /*color: rgba(130, 228, 157, 0.86);*/
+
+}
+
+
+.divider2{
+  height: 50vh;
+  background-image: url(images/marble2.jpg);
+  background-size: cover;
+}
+
+#divider{
+  position: relative;
+  height: 50vh;
+  border-top: 0.5px solid rgb(236, 194, 236);
+  border-bottom: 0.5px solid rgb(236, 194, 236);
+  background-image: url(images/rust4.jpg);
+  background-size: cover;
+}
+
+/*.wish{
+  font-family: 'Homemade Apple', cursive;
+  color: #82e49d;
+  right:0px;
+  position: absolute;
+  bottom: 0;
+  font-size: 2em;
+  padding-right:1em;
+}*/
+
+.about{
+  margin-top: 7%;
+    margin-bottom: 7%;
+    border-top: 0.5px solid rgb(236, 194, 236);
+    border-bottom: 0.5px solid rgb(236, 194, 236);
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+}
+
+/*.hiya{margin-top: 2%;
+}*/
+
+.words{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+strong{
+  color:#57806f;
+}
+
+.divider3{
+  height: 50vh;
+  border-top: 0.5px solid rgb(236, 194, 236);
+  background-image: url(images/bug1.jpg);
+  background-size: cover;
+
+}
+
+.divider4{
+  height: 50vh;
+  background-image: url(images/marble2.jpg);
+  background-size: cover;
+}
+
+.projectscontain{
+    border-top: 0.5px solid rgb(236, 194, 236);
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    height: 50vh;
+
+  }
+
+.projects{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.projects a{
+  width:25%;
+}
+
+
+.p{
+  width:90%
+}
+
+
+/*.project-title{
+  margin-top: 5%;
+}*/
+
+@media only screen and (max-width: 698px){
+  nav li {
+    display: block;
+    padding: 15px;
+    text-align: center;
+  }
+
+
+  .divider3 {
+      height: 40vh;
+  }
+
+}
+
+@media only screen and (max-width: 550px){
+  .about{
+    border-top: none;
+    border-bottom:none;
+}
+
+}
