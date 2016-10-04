@@ -37,7 +37,7 @@ nav a:hover {
 
 .divider2{
   height: 50vh;
-  background-image: url(images/marble2small.jpg);
+  background-image: url(images/Marble2small.jpg);
   background-size: cover;
 }
 
@@ -46,7 +46,7 @@ nav a:hover {
   height: 50vh;
   border-top: 0.5px solid rgb(236, 194, 236);
   border-bottom: 0.5px solid rgb(236, 194, 236);
-  background-image: url(images/rust4small.jpg);
+  background-image: url(images/Rust4small.jpg);
   background-size: cover;
 }
 
@@ -84,7 +84,7 @@ strong{
 .divider3{
   height: 50vh;
   border-top: 0.5px solid rgb(236, 194, 236);
-  background-image: url(images/marble1small.jpg);
+  background-image: url(images/Marble1small.jpg);
   background-size: cover;
 
 }
